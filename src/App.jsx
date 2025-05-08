@@ -3,7 +3,13 @@ import GitHubCalendar from 'react-github-calendar';
 
 function App() {
   return (
-    <div style={{ textAlign: 'center', marginTop: '50px' }}>
+    <div style={{ 
+      backgroundColor: '#14121F',
+      minHeight: '100vh', 
+      display: 'flex', 
+      justifyContent: 'center', 
+      alignItems: 'center' 
+    }}>
       <GitHubCalendar username="adarsh-2003" />
     </div>
   );
