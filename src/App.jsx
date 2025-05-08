@@ -5,7 +5,6 @@ function App() {
   return (
     <div style={{ 
       backgroundColor: '#14121F',
-      minHeight: '100vh', 
       display: 'flex', 
       justifyContent: 'center', 
       alignItems: 'center' 
